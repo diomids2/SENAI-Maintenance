@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/style.css">
+    <title>Senai Schools - Alunos</title>
+</head>
+    <body class="body-aluno"><!--Deve receber o display flex-->
+        <aside><!--deve receber o display flex-->
+            <a href="/homeAdm.html"><img src="/assets/img/logo.png" alt=""></a>
+            <nav class="menu">
+                <h2>Menu</h2>
+                <ul>
+                    <li><a href="#">Colaboradores</a></li>
+                    <li><a href="#">Turmas</a></li>
+                    <li><a href="#">Alunos</a></li>
+                    <li><a href="#">Perfil</a></li>
+                    <li class="sair"><a href="/Login.html">Sair</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <div class="container">
+            <h2>Cadastrar Aluno(a)</h2>
+            <form action="">
+                        <div class="sec-input-1">
+                            <div class="sec-superior">
+                                <input type="text" class="nome_completo" name="nome_completo" placeholder="Nome completo" required>
+                            </div>
+                            
+                            <div class="sec-inferior">
+                                <input class="pm"type="number" placeholder="CPF" name="cpf" required>
+                                <input class="re" type="text" name="R.E" name="r.e" placeholder="R.E" required> 
+                            </div>
+            
+                            <div class="file-input">
+                                <input type="file" name="foto" id="foto" accept=".jpg,.png" required>
+                                <label class="label-input" for="foto"></label>
+                                <p>Selecionar imagem</p>
+                            </div>
+                            
+                        </div><!--sec-input-1-->
+                        <div class="sec-input-3">
+                            <input class="p" type="text" name="data-nascimento" id="" placeholder="Data de nascimento" required>
+                            <input class="p" type="tel" name="Telefone" id="" placeholder="Telefone" required>
+                            <input class="p" type="tel" name="Celular" id="" placeholder="Celular" required>
+                        </div>
+                        <div class="sec-input-2">
+                            <input class="g" type="email" name="email" id="" placeholder="Email" required>
+                        </div>
+                        <div class="sec-input-3">
+                            <input class="pm" type="text" name="cep" id="" placeholder="CEP" required>
+                            <input class="m" type="text" name="logradouro" id="" placeholder="Logradouro" required>
+                        </div>
+                        <div class="sec-input-2">
+                            <input class="pm" type="text" name="numero" id="" placeholder="Número" required>
+                            <input class="m" type="text" name="complemento" id="" placeholder="Complemento" required>
+                        </div>
+            
+                        <div class="sec-input-3">
+                            <input class="p" type="text" name="Turma" id="" placeholder="Turma" required>
+                            <input class="p" type="ano" name="Ano_letivo" id="" placeholder="Ano Letivo" required>
+                            <input class="p" type="Status" name="status" id="" placeholder="Status" required>
+                        </div>
+            
+                        <div class="sec-input-2">
+                            <input class="text-area" type="text" name="descricao" id="" placeholder="Descricao" required>
+                        </div>
+
+
+                    <button class="btAluno" type="submit">Cadastrar</button>
+            </form>
+            
+           
+        </div>
+    </body>
+</html>
