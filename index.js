@@ -52,13 +52,13 @@ const routing = (
       <div>
         <Switch>
           <Route exact path="/" component={App} />
-          <PermissaoAdm exact path="/cadastraraluno" component={cadastrarAlunos} />
-          <PermissaoAdm exact path="/adm" component={homeAdm} />
-          <PermissaoAdm exact path="/listarcolaboradores" component={listarColaboradores} />
-          <Permissao exact path="/listarturmas" component={ListarTurmas} />
-          <Permissao exact path="/cadastrarturma" component={cadastrarTurmas} />
-          <PermissaoAdm exact path="/cadastrarcolaborador" component={cadastrarColaborador} />
-          <Permissao exact path="/colaborador" component={homeColaborador} />
+          <Route exact path="/cadastraraluno" component={cadastrarAlunos} />
+          <Route exact path="/adm" component={homeAdm} />
+          <Route exact path="/listarcolaboradores" component={listarColaboradores} />
+          <Route exact path="/listarturmas" component={ListarTurmas} />
+          <Route exact path="/cadastrarturma" component={cadastrarTurmas} />
+          <Route exact path="/cadastrarcolaborador" component={cadastrarColaborador} />
+          <Route exact path="/colaborador" component={homeColaborador} />
           <Route exact path="/perfil" component={perfil} />
           <Route exact path="/notfound" component={notFound} />
 

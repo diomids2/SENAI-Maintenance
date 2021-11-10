@@ -46,6 +46,7 @@ class App extends Component{
           this.setState({isLoading : false});
 
           console.log(parseJwt().role)
+          
 
           switch (parseJwt().role){
             case '0':

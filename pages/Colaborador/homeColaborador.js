@@ -75,10 +75,10 @@ import Trash from  '../../assets/trash.png'
                 <input type="search" id="search" placeholder="Pesquisar" className="g" />
             </header>
             <div className="sec-display">
-                <a href="">{listaAlunos.length} alunos</a>
-                <a href="">{listaTurmas.length} Turmas</a>
+                <a href="">{listaAlunos.length} Serviços Pendentes</a>
+                <a href="">{listaTurmas.length} Solicitar Suporte</a>
             </div>
-        <h2>Últimos Alunos</h2>
+        <h2>Serviços Pendentes</h2>
         <section className="lista20">
             {
                 listaAlunos.map((alunos) => {
